@@ -172,7 +172,7 @@ class AppTest {
         exercise1.ratingSalesPerson();
 
         // assertion
-        String expected = "Enter annual Revenue: " +
+        String expected = "Enter annual Revenue:" +
                 "Invalid Revenue" + System.lineSeparator();
         assertEquals(expected, bos.toString());
     }
@@ -185,7 +185,7 @@ class AppTest {
         exercise1.ratingSalesPerson();
 
         // assertion
-        String expected = "Enter annual Revenue: " +
+        String expected = "Enter annual Revenue:" +
                 "Good Sales Revenue" + System.lineSeparator();
         assertEquals(expected, bos.toString());
     }
@@ -198,7 +198,7 @@ class AppTest {
         exercise1.ratingSalesPerson();
 
         // assertion
-        String expected = "Enter annual Revenue: " +
+        String expected = "Enter annual Revenue:" +
                 "Poor Sales Revenue" + System.lineSeparator();
         assertEquals(expected, bos.toString());
     }
@@ -214,7 +214,7 @@ class AppTest {
         exercise1.getCommissionRate();
 
         // assertion
-        String expected = "Enter CommissionClass: " +
+        String expected = "Enter CommissionClass:" +
                 "Your Commission Rate was set to 0.01" + System.lineSeparator();
         assertEquals(expected, bos.toString());
     }
